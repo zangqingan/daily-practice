@@ -1,0 +1,50 @@
+/* 指定css文件的编码格式 */
+@charset "utf-8";
+
+.d-f{
+    display:flex;
+}
+.f-l{
+    float: left;
+}
+.f-r{
+    float:right;
+}
+.border1{
+    border: 1px solid red ;
+}
+.bgred{
+    background: red;
+}
+/* 元素居中 */
+.c-b{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 文本居中 */
+.c-t{
+    text-align: center;
+}
+
+.w1200{
+    width: 1200px;
+}
+.h100{
+    height: 100%;
+}
+.outside{
+    background-color: chartreuse;
+}
+/*清除浮动*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+

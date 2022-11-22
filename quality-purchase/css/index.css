@@ -1,0 +1,285 @@
+/* 首页样式 */
+@charset "utf-8";
+
+/* main */
+.main{
+  width: 990px;
+  height: 455px;
+  margin-left: 220px;
+  margin-top: 10px;
+}
+.focus{
+  position: relative;
+  width: 730px;
+  height: 455px;
+}
+.arrow-l,.arrow-r{
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  width: 30px;
+  height: 40px;
+  line-height: 40px;
+  background-color: wheat;
+  text-align: center;
+  font-size: 18px;
+
+}
+.arrow-r{
+  right: 0px;
+}
+.circle{
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+}
+.circle li{
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: teal;
+}
+.newflash{
+  width: 250px;
+  height: 455px;
+}
+.new{
+  height: 163px;
+  border: 1px solid #ccc;
+}
+.new-hd{
+  height: 32px;
+  line-height: 32px;
+  padding:0 20px;
+  font-size: 14px;
+  border-bottom: 1px dotted #ccc;
+}
+.new-hd .iconfont{
+  font-size: 14px;
+}
+.new-bd{
+  padding: 10px 0 0 15px;
+}
+.new-bd li {
+  height: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  
+
+}
+.lifeservice{
+  height: 208px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-top: none;
+  overflow: hidden;
+}
+.lifeservice ul{
+  /* 子级容器是可以比父级大的 */
+  width: 252px;
+}
+.lifeservice li{
+  float: left;
+  position: relative;
+  width: 62px;
+  height: 70px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.lifeservice li a{
+  display: block;
+  height: 100%;
+  /* 开启bfc，解决垂直外边距重叠问题 */
+  overflow: hidden;
+}
+.lifeservice li p{
+  text-align: center;
+}
+.service-ico{
+  display: block;
+  width: 24px;
+  height: 24px;
+  /* 外边距重叠了，使用内边距 */
+  margin: 10px auto;
+  background: url(../images/icons.png) no-repeat ;
+}
+.service-ico-huafei{
+  background-position: -17px -16px ;
+}
+.service-ico-jipiao{
+  background-position:-78px -16px;
+}
+.service-ico-movie{
+  background-position:-141px -16px;
+}
+.service-ico-game{
+  background-position:-206px -16px;
+}
+.service-ico-caipiao{
+  background-position:-17px -88px;
+}
+.service-ico-jiayou{
+  background-position:-78px -88px;
+}
+.service-ico-hotel{
+  background-position:-141px -88px;
+}
+.service-ico-ticket{
+  background-position:-206px -88px;
+}
+.service-ico-zhongchou{
+  background-position: -17px -159px;
+}
+.service-ico-licai{
+  background-position:-78px -159px;
+}
+.service-ico-lipin{
+  background-position: -141px -159px;
+}
+.service-ico-baitiao{
+  background-position:-206px -159px;
+}
+.hot{
+  position: absolute;
+  top: 0;
+  right: 2px;
+  width: 12px;
+  height: 15px;
+  color: red;
+  text-shadow: 1px 1px blueviolet;
+}
+.bargin{
+  height: 75px;
+  margin-top: 5px;
+}
+
+/* recomment */
+.recomment{
+  height: 165px;
+  margin-top: 10px;
+}
+.recom-hd{
+  width: 200px;
+  height: 165px;
+  text-align: center;
+  background-color: #5c5251;
+}
+.recom-hd img{
+  margin: 30px 0 10px 0;
+}
+.recom-hd h3{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+}
+.recom-bd{
+  width: 1000px;
+  height: 163px;
+  background-color: #ebebeb;
+}
+.recom-bd li{
+  float: left;
+  width: 249px;
+  height: 145px;
+  margin-top: 10px;
+  border-right: 1px solid #ccc;
+
+}
+.recom-bd .last{
+  border-right: none;
+}
+
+/* floor */
+.box-hd{
+  height: 40px;
+  margin-top: 25px;
+  border-bottom: 2px solid #c81623;
+}
+.box-hd h3{
+  float: left;
+  font-size: 18px;
+  color: #c81623;
+}
+.tab-list{
+  float: right;
+  line-height: 40px;
+  
+}
+.tab-list li{
+  float: left;
+}
+.tab-list li a{
+  margin:0 15px
+}
+.box-bd{
+  height: 360px;
+}
+.box-bd img{
+  transition:all ease-in 0.3s;
+}
+.box-bd img:hover{
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 20px #ccc;
+}
+.tab-con{
+  height: 360px;
+}
+.tab-con li{
+  float: left;
+  height: 360px;
+}
+.w209{
+  width: 209px;
+  background-color: #f9f9f9;
+}
+.w209 img{
+  margin-top: 15px;
+}
+.w329{
+  width: 329px;
+}
+.w219{
+  width: 219px;
+  border-right: 1px solid #ccc;
+}
+.tab-con-item{
+  border-bottom: 1px solid #ccc;
+}
+.w220{
+  width: 220px;
+  border-right: 1px solid #ccc;
+}
+.tab-con-list li{
+  width: 85px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-bottom: 1px solid #ccc; 
+  margin-left: 10px;
+}
+/* fixedTool */
+.fixedTool{
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  margin-left: -675px;
+  z-index: 10000;
+  width: 66px;
+  text-align: center;
+  font-size: 12px;
+  background-color: #fff;
+}
+.fixedTool li{
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px solid #ccc; 
+  cursor: pointer;
+}
+.fixedTool .active{
+  background-color:  #c81623;
+  color: #ffffff;
+}

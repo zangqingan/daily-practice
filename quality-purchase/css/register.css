@@ -1,0 +1,94 @@
+/* 列表页样式 */
+@charset "utf-8";
+.header{
+  height: 82px;
+  padding: 15px;
+  border-bottom: 2px solid #b1191a;
+}
+.registerarea{
+  height: 520px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  
+}
+.registerarea h3{
+  height: 40px;
+  line-height: 40px;
+  padding:0 30px;
+  font-weight: 400;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  background-color: #ececec;
+}
+.registerarea h3 em{
+  float: right;
+  font-size: 14px;
+}
+.registerarea h3 em a{
+  color: #c815c8;
+ 
+}
+.reg-form{
+  width: 600px;
+  height: 420px;
+  margin: 40px auto 0;
+}
+.reg-form li{
+  margin-bottom: 15px;
+}
+.reg-form label{
+  display: inline-block;
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  text-align: right;
+}
+.reg-form .inp{
+  width: 238px;
+  height: 35px;
+  border: 1px solid #ccc;
+  padding-left: 5px;
+  margin-left: 10px;
+}
+.reg-form .error{
+  color: #df3033;
+}
+.safe{
+  padding-left: 140px;
+  color: #b2b2b2;
+}
+.safe em{
+  color: #fff;
+  padding: 0 20px;
+}
+.weak{
+  background-color: #de1111;
+}
+.middle{
+  background-color:#40b83f ;
+}
+.heigh{
+  background-color: #f79100;
+}
+.agree{
+  padding-left: 110px;
+}
+.agree input{
+  vertical-align: middle;
+  margin-right:10px;
+}
+.agree a{
+  color: #1ba1e6;
+}
+.subm{
+  width: 200px;
+  height: 35px;
+  background-color: #c81623;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  margin: 30px 0 0 130px;
+}
+
+
+

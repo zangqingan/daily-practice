@@ -1,0 +1,80 @@
+@charset "utf-8";
+@import './_variables.scss';
+
+// 循环生成字体和背景颜色类
+@each $colorKey,$color in $colors {
+    .text-#{$colorKey}{
+        color: $color;
+    }
+    .bg-#{$colorKey}{
+        background-color:$color;
+    }  
+}
+// 循环生成文本对齐方式类
+@each $var in (left,center,right) {
+    .text-#{$var} {
+        text-align: $var !important; 
+    }  
+}
+//循环生成字体大小样式类
+@each $sizeKey,$size in $font-sizes {
+    .fs-#{$sizeKey}{
+        font-size: $size*$base-font-size;
+    }  
+}
+// flex布局时循环生成项目在主轴上的对齐方式
+@each $key,$value in $flex-jc {
+    .jc-#{$key}{
+        justify-content: $value;
+    }
+}
+//flex布局时循环生成项目在交叉轴上的对齐方式
+@each $key,$value in $flex-ai {
+    .ai-#{$key}{
+        align-items: $value;
+    } 
+}
+
+
+// flex
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-grow-1{
+    flex-grow: 1;
+}
+
+// width
+.w-100{
+    width: 100%;
+}
+// height
+.h-100{
+    height: 100%;
+}
+// 版心
+.center{
+    width: $center-block;
+    margin: 0 auto;
+}
+/*清除浮动*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+/* 兼容ie */
+.clearfix {
+    *zoom: 1
+}

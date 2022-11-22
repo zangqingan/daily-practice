@@ -1,0 +1,41 @@
+/* 指定css文件的编码格式 */
+@charset "utf-8";
+// colors
+$colors:(
+    "primary":#4ac1ae,
+    "black":#000,
+    "dark":#646464,
+    "dark-1":#999999,
+    "grey":#afafaf,
+    "grey-1":#b2b2b2,
+    "grey-t":#e5e5e5,
+    "secondary":#67c23a,
+    "btn":#ff7878
+);
+// font-size
+$base-font-size:1rem;
+$font-sizes:(
+    xxs:0.75,//12px
+    xs:0.8125,//13px
+    sm:0.875,//14px
+    md:1,//16px
+    xl:1.5,//24px
+);
+// justify-content
+$flex-jc:(
+    start:flex-start,
+    end:flex-end,
+    center:center,
+    between:space-between,
+    around:space-around,
+    evenly:space-evenly
+);
+//  align-items
+$flex-ai:(
+    start:flex-start,
+    end:flex-end,
+    center:center,
+    stretch:stretch
+);
+// 版心
+$center-block:1200px;
